@@ -6,9 +6,9 @@
         url('./../fonts/Vazir.ttf') format('truetype');
     font-weight: normal;
 }
+
 ul.no-bull,
-.no-bull ul
-{
+.no-bull ul {
     list-style: none;
 }
 
@@ -114,7 +114,7 @@ header .header-desc p {
 #story {
     width: 100%;
     height: 450px;
-    padding:  100px 0;
+    padding: 100px 0;
 }
 
 #story .story-desc {
@@ -125,13 +125,16 @@ header .header-desc p {
     float: right;
 
 }
-#story .story-desc h1{
+
+#story .story-desc h1 {
     padding-top: 150px;
 }
-#story .story-desc p{
+
+#story .story-desc p {
     width: 70%;
     margin: 0 auto;
 }
+
 #story .story-img {
     width: 50%;
     display: flex;
@@ -140,11 +143,12 @@ header .header-desc p {
 
 #story .story-img img {
     width: 100%;
-    
+
 }
+
 /* sweet */
 
-#sweet{
+#sweet {
     width: 100%;
     background-image: url(./../images/backtwo.jpg);
     height: 450px;
@@ -154,43 +158,48 @@ header .header-desc p {
     background-attachment: fixed;
     position: relative;
 }
-#sweet .sweet-desc{
+
+#sweet .sweet-desc {
 
     width: 100%;
     color: white;
-    position: absolute;
-  
     text-align: center;
     padding-top: 200px;
     z-index: 1000;
 
 }
-#sweet .sweet-desc h1{
+
+#sweet .sweet-desc h1 {
     font-size: 2rem;
 }
-#sweet .sweet-desc p{
+
+#sweet .sweet-desc p {
     width: 50%;
     margin: 0 auto;
     font-size: 1.5rem;
 
 }
+
 /* menu */
-#menu{
+#menu {
     width: 100%;
     height: 500px;
     padding: 100px 0;
 }
-#menu .menu-desc{
-width: 50%;
-padding-top: 10%;
-float: right;
-height: 100%;
-text-align: center;
+
+#menu .menu-desc {
+    width: 50%;
+    padding-top: 10%;
+    float: right;
+    height: 100%;
+    text-align: center;
 }
-#menu .menu-desc h2{
+
+#menu .menu-desc h2 {
     font-size: 32px;
 }
-#menu .menu-desc p{
+
+#menu .menu-desc p {
     font-size: 18px;
     width: 80%;
     line-height: 1.8rem;
@@ -198,41 +207,48 @@ text-align: center;
     text-align: justify;
     margin-bottom: 25px;
 }
-#menu .menu-desc a{
+
+#menu .menu-desc a {
     text-decoration: none;
     color: #222;
     border-bottom: 2px solid red;
     font-size: 18px;
-  
+
 }
-#menu .menu-desc a:hover{
-    border: 3px solid red; 
+
+#menu .menu-desc a:hover {
+    border: 3px solid red;
     padding: 18px;
     font-size: 15px;
 }
-#menu .mnue-image {
+
+#menu .menu-image {
     width: 50%;
     height: 100%;
     float: right;
 
 }
-#menu .mnue-image  ul{
+
+#menu .menu-image ul {
     width: 100%;
 }
-#menu .mnue-image  li{
+
+#menu .menu-image li {
     width: 50%;
     float: right;
     list-style: none;
     margin-bottom: 10px;
 }
-#menu .mnue-image img{
+
+#menu .menu-image img {
     width: 300px;
     height: 240px;
-    
+
 }
+
 /* space */
 
-#space{
+#space {
     width: 100%;
     height: 300px;
     background-image: url(./../images/hot.jpeg);
@@ -242,18 +258,48 @@ text-align: center;
     position: relative;
     color: #fff;
 }
-#space .space-desc{
+
+#space .space-desc {
     text-align: center;
     padding-top: 40px;
     width: 100%;
     height: 100%;
- 
+
 
 }
-#space .space-desc h2{
+
+#space .space-desc h2 {
     font-size: 40px;
-    
+
 }
-#space .space-desc p{
+
+#space .space-desc p {
     font-size: 26px;
+}
+
+/* deilight */
+#deilight {
+    background-color: #222;
+    width: 100%;
+}
+
+#deilight .deilight-content{
+    padding: 50px 0;
+    width: 100%;
+}
+
+#deilight .deilight-desc{
+    background-color: aqua;
+    width: 50%;
+    text-align: center;
+    float: right;
+}
+#deilight .deilight-img{
+    background-color: rebeccapurple;
+    width: 50%;
+    float: right;
+}
+#deilight .deilight-img img{
+    width: 220px;
+    height: 300px;
 }
