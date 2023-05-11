@@ -279,7 +279,6 @@ header .header-desc p {
 
 /* deilight */
 #deilight {
-    background-color: #222;
     width: 100%;
 }
 
@@ -289,15 +288,20 @@ header .header-desc p {
 }
 
 #deilight .deilight-desc{
-    background-color: aqua;
     width: 50%;
     text-align: center;
     float: right;
+    padding-top: 50px;
+    padding-bottom:50px;
 }
-#deilight .deilight-img{
-    background-color: rebeccapurple;
+#deilight .deilight-desc p{
+    width: 80%;
+    margin: auto;   
+}
+#deilight .deilight-img {
     width: 50%;
     float: right;
+    text-align: center;
 }
 #deilight .deilight-img img{
     width: 220px;
